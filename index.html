@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="1.css">
+<title>Nhập password nha!!</title>
+</head>
+<body>
+						<script>  
+function validateform(){   
+var password=document.myform.password.value;   
+}else if(password.length<6){  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+  }  
+}  
+</script>  
+	<div id="background">
+		<div class="o" id="o1">
+		<img id=imgdangnhap src="image/khungdangnhap.png" alt="dangnhap">
+		<br>
+		<hr>
+		<br>
+		<form id="form">
+		<input type="radio" name="ticho"         ></input><b>Người lạ vào Web</b><br>
+		<input type="radio" name="ticho"  checked></input><b>Siu bạn thân    </b><br>
+		<input type="radio" name="ticho"         ></input><b>Người iu        </b><br>
+		<br>
+		<input id="password" type="password" name="password" autofocus> </input> <br>
+		<br>
+		<img id="map" src="image/gui.jpg" alt="gui" usemap="#map">
+		<map name="map">
+		<area shape="default" coords="0,0,0,0" href="trang2.html" onclick="alert('Hí Hí')" alt="map1" />
+		</map>
+		</form>
+				<img id="img2" src="image/imgdangnhap2.png" alt="dangnhap2">
+		</div>
+		<div class="o" id="o2">
+		<img id=imgdangnhap1 src="image/khungdangnhap1.png" alt="dangnhap">
+		</div>
+	</div>
+</body>
+</html>
